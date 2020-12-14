@@ -1,6 +1,12 @@
 name: griffin script developer guide
 titile: Griffin Script Developer Guide
 url: griffinscript.github.io
+# Aux links for the upper right navigation
+aux_links:
+  "菜鸟IoT基础平台":
+    - "//gs.cainiao.com/"
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "light"
 plugins:
