@@ -1,2 +1,2 @@
-## Griffin Script Developer Guide</title>
+## Griffin Script Developer Guide
     Hello, world.
