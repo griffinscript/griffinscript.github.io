@@ -1,2 +1,30 @@
-## Griffin Script Developer Guide
-    Hello, world.
+# 基本语法
+Griffin Script（以下简称GS）是一种根据ECMAScript基本语法定义的一种针对物流实操和设备流程定义设计的DSL(领域编程语言)，基本的语法和ECMAScript 2015 (也被称为ECMAScript 6或者ES6，以下简称ES6) 保持一致，可以参考相关文档学习基本语法，本文主要介绍和ECMAScript有差异的部分。
+  ## 通用限制
+GS运作在ES6的strict mode下，同时GS对于代码有更严格的检查和要求，比如ES6允许省略必要的参数，但是GS会对于缺失的参数报错。所以ES6里面能运行的代码在GS引擎上可能会报错。
+  ## 变量
+GS推荐使用let定义变量，同时也支持通过var来定义变量，两种语法的作用域符合ES6规范，但是GS不支持先使用再申明变量，未经申明的变量使用会产生编译期错误。
+···
+let a = "string";
+let b; // 初始化为undefined
+let c = {foo: "bar"}; // 简单对象
+let d = 1;
+let d = 2; // 错误，根据ES6规范let不允许重复定义
+x = 1; // ES6允许但是GS定义为错误，禁止先使用再定义
+var x;
+// 正确
+var va; // 初始化为undefined
+var vb = 1;
+var vc = "test";
+var array = ["a","b"];
+var json = {key: "value"};
+var va = 1; // ES6规范允许var重复定义，此处相当于重新赋值
+···
+ ## 语句
+ GiffinScript 的语句用分号分隔。
+ ···
+ var statement = "hello griffin script";
+ ···
+# 高级语法
+
+# 内置扩展 
