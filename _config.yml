@@ -1,6 +1,6 @@
 name: griffin script developer guide
 url: griffinscript.github.io
-remote_theme: kitian616/jekyll-TeXt-theme
+remote_theme: jekyll-text-theme
 plugins:
   - jekyll-relative-links
 relative_links:
