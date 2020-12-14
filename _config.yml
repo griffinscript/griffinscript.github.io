@@ -1,10 +1,8 @@
 name: griffin script developer guide
+titile: Griffin Script Developer Guide
 url: griffinscript.github.io
-
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "dark"
-
-
 plugins:
   - jekyll-relative-links
 relative_links:
