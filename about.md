@@ -1,7 +1,6 @@
 layout: default
 title: "about us"
 permalink: /about/
-has_children: true
 
 ## Welcome to GitHub Pages
 
