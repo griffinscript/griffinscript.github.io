@@ -1,6 +1,10 @@
+---
 layout: default
-title: "about us"
+title: about us
+nav_order: 1
+description: "Just the Docs is a responsive Jekyll theme with built-in search that is easily customizable and hosted on GitHub Pages."
 permalink: /about/
+---
 
 ## Welcome to GitHub Pages
 
