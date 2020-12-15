@@ -22,9 +22,6 @@ remote_theme: pmarsceill/just-the-docs
 
 color_scheme: "light"
 
-include:
-  - index.md
-  - README.md
 markdown: kramdown
 
 plugins:
