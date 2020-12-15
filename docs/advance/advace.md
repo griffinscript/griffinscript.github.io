@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 扩展能力
-nav_order: 2
+title: 能力扩展
+nav_order: 3
 parent: Griffin Script
 permalink: /extend/
 has_children: true
