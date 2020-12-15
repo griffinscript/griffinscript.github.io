@@ -4,6 +4,7 @@ title: griffin script
 nav_order: 1
 description: "语法文档"
 permalink: /
+has_children: true
 ---
 
 ## 简介
