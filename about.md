@@ -1,7 +1,7 @@
 ---
 layout: default
 title: 关于我们
-nav_order: 1
+nav_order: 2
 description: "团队介绍"
 permalink: /about/
 ---
