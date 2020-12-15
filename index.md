@@ -18,21 +18,13 @@ GS引擎允许平台层通过```Bindings```设置脚本运行时环境变量，�
 GS 对大小写敏感，所有的变量，函数名等都需要正确的大小写，因此函数```foo()```与```Foo()```是不同的函数，
 变量```myvariable```与```MyVariable```也是不同的。
 ## 注释
-* 支持。
 ## 声明
-* 支持。
 ## 变量
-* 支持。
----
 GS推荐使用```let```定义变量，同时也支持通过```var```来定义变量，两种语法的作用域符合ES6规范，但是GS不支持先使用再申明变量，未经申明的变量使用会产生编译期错误。
 ## 声明变量
-* 支持。
 ## 变量求值
-* 支持。
 ## 变量的作用域
-* 支持。
 ## 变量提升
-* 支持。
 ## 函数提升
 GS 的函数必须先定义再使用
 ```javascript
@@ -44,42 +36,27 @@ function foo() {
   console.log("bar");
 }
 ```
-上面的代码会提示:
-```
-runProgram exception : Run program failed.undefined object: foo
-```
+
+上面的代码会提示:```runProgram exception : Run program failed.undefined object: foo```
 
 ## 全局变量
 window是浏览器的全局变量，在GS中不支持。
 ## 常量(Constants)
-* 支持。
 # 数据结构和类型
 ## 数据类型
 ## 数据类型的转换
-* 支持。
 ## 字符串转换为数字
-* 支持。
----
  ```parseInt()``` 和 ```parseFloat()```
 ## 字面量 (Literals)
 ### 数组字面量 (Array literals)
-* 支持。
 ### 布尔字面量 (Boolean literals)
-* 支持。
----
 布尔类型有两种字面量：```true``` 和 ```false```。
 ### 整数 (Integers)
-* 支持。
----
 严格模式下，八进制整数字面量必须以0o或0O开头，而不能以0开头。
 ### 浮点数字面量 (Floating-point literals)
-* 支持。
 ### 对象字面量 (Object literals)
-* 支持。
 ### 增强的对象字面量 (Enhanced Object literals)
-* 支持。
 ### RegExp 字面值
-* 支持。
 ### 字符串字面量 (String literals)
 GS暂时不支持模板字面量
 ```javascript
