@@ -69,4 +69,8 @@ console.log(poem);
 ```
 以上写法会报错。
 
+---
+以上文档和下面的MDN校验，主要描述有差异部门，没有描述的部分默认行为一致。
+https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Guide/Grammar_and_Types#%E5%9F%BA%E7%A1%80
+---
 
