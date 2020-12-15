@@ -1,4 +1,7 @@
+---
 layout: default
 title: SystemService
-parent: 扩展能力
 nav_order: 1
+parent: 扩展能力
+has_children: false
+---
